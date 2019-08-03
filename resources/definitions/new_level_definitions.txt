@@ -1,0 +1,81 @@
+
+# Level 1
+
+START_LEVEL
+level_name:Minions
+ball_velocities:45,400 -45,400 0,400 -30,400 30,400
+background:image(background_images/minions.jpg)
+paddle_speed:650
+paddle_width:150
+block_definitions:definitions/minions_definitions.txt
+blocks_start_x:25
+blocks_start_y:40
+row_height:25
+num_blocks:180
+START_BLOCKS
+yyyyyyyyyyyyyyy
+bbgwwwgbgwwwgbb
+bbgwbwgbgwbwgbb
+bbgwwwgbgwwwgbb
+yyyyyyyyyyyyyyy
+yyyybyyyybyyyyy
+yyyyybbbbyyyyyy
+yyyyyyyyyyyyyyy
+jJjJjJjJjJjJjJj
+jJjJjJjJjJjJjJj
+jJjJjJjJjJjJjJj
+yyyyyyyyyyyyyyy
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+# Complicated pattern (heart blocks)
+
+START_LEVEL
+level_name:Unicorn
+ball_velocities:45,550 46,550 47,550
+background:image(background_images/unicornBackground.jpg)
+paddle_speed:650
+paddle_width:250
+block_definitions:definitions/heart_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:135
+START_BLOCKS
+-
+-
+-
+---llllllll
+---rrrllrrr
+---rrrrrrrr
+---lrrrrrrl
+---llrrrrll
+---lllrrlll
+---llllllll
+
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+
+START_LEVEL
+level_name:Three Lions
+ball_velocities:45,500
+background:image(background_images/england.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/three_lions_block_definition.txt
+blocks_start_x:150
+blocks_start_y:150
+row_height:50
+num_blocks:43
+START_BLOCKS
+--b--bbb--bbb--bbb
+--b--bwb--b----b
+--b--bbb--b----b
+--b----b--bbb--bbb
+--b----b--bwb--bwb
+--b----b--bbb--bbb
+END_BLOCKS
+END_LEVEL
